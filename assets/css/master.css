@@ -1,20 +1,9 @@
-body {
-  max-width: 960px;
-  width: 100%;
-  margin: auto;
-  padding: 5%;
-}
-
 header {
-  margin: 40px 40px 60px 60px;
+  margin-top: 10%;
 }
 header img {
-  max-width: 200px;
+  max-width: 150px;
   width: 100%;
-}
-
-form {
-  padding: 10px;
 }
 
 div.second div.info {
@@ -30,7 +19,7 @@ p.blanc {
 div p {
   font-weight: bold;
   color: white;
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
   padding: 10px;
 }
@@ -40,7 +29,7 @@ div p.tel {
 }
 div p.important {
   color: #E03E50;
-  font-size: 1.9em;
+  font-size: 1.3em;
 }
 
 div a {
@@ -55,19 +44,13 @@ div a:hover {
   text-decoration: none;
 }
 
-.main {
-  position: relative;
-  margin: 40px 40px 60px 60px;
-}
 
 .Gdclip-bas {
 	position: relative;
 	background: #00A3E0;
   display: inline-block;
-  max-width: 400px;
-  width: 100%;
-  max-height: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
 }
 .Gdclip-bas:after {
   z-index: 100;
@@ -89,10 +72,8 @@ div a:hover {
 	position: relative;
 	background: #00A3E0;
   display: inline-block;
-  max-width: 400px;
-  width: 100%;
-  max-height: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
 }
 .Gdclip-droite:after {
   z-index: 100;
@@ -113,10 +94,8 @@ div a:hover {
 .Moyenclip-droite {
 	position: relative;
 	background: #005EB8;
-  max-width: 200px;
-  width: 100%;
-  max-height: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
 }
 .Moyenclip-droite:after {
 	left: 100%;
@@ -136,10 +115,8 @@ div a:hover {
 .Moyenclip-bas {
 	position: relative;
 	background: #48A23F;
-  max-width: 200px;
-  width: 100%;
-  max-height: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
 }
 .Moyenclip-bas:after {
   top: 100%;
@@ -159,9 +136,7 @@ div a:hover {
 .Petitclip-droite {
 	position: relative;
 	background: #00A3E0;
-  max-width: 100px;
-  width: 100%;
-  max-height: 100px;
+  width: 100px;
   height: 100px;
 }
 .Petitclip-droite:after {
@@ -188,7 +163,7 @@ div a:hover {
 .centre {
   position: absolute;
   top:25%;
-  margin-left: 400px;
+  margin-left: 300px;
 }
 
 /*==========*\
