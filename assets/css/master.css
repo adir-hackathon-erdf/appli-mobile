@@ -1,17 +1,17 @@
+body {
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
+  padding: 5%;
+}
 header {
-  margin-top: 10%;
+  margin-top: 1%;
 }
 header img {
   max-width: 150px;
   width: 100%;
 }
 
-div.second div.info {
-  display: inline-block;
-  float: right;
-  color: #000;
-  font-size: 1em;
-}
 p.blanc {
   color: white;
 }
@@ -19,17 +19,14 @@ p.blanc {
 div p {
   font-weight: bold;
   color: white;
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
   padding: 10px;
 }
-div p.tel {
-  color: white;
-  font-size: 0.9em;
-}
+
 div p.important {
   color: #E03E50;
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
 div a {
@@ -157,7 +154,7 @@ div a:hover {
 .droite {
   display: inline-block;
   position: relative;
-  left: -4px;
+  left: -5px;
 }
 
 .centre {
@@ -165,6 +162,23 @@ div a:hover {
   top:25%;
   margin-left: 300px;
 }
+
+aside header {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+article section {
+  height: 100px;
+}
+article div {
+  display: inline-block;
+}
+article div.info {
+  margin-left: 5%;
+}
+
 
 /*==========*\
   COULEURS
