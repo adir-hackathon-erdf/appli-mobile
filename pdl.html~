@@ -50,7 +50,5 @@
         <i class="fa fa-flag fa-2x pull-left"></i> Font Awesome<br>Version 4.5.0
       </a>
     </form>
-  
-    <script src="assets/js/index.js"></script>
   </body>
 </html>
