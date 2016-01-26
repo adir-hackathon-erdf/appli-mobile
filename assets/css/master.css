@@ -1,0 +1,211 @@
+body {
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
+  padding: 5%;
+}
+
+header {
+  margin: 40px 40px 60px 60px;
+}
+header img {
+  max-width: 200px;
+  width: 100%;
+}
+
+form {
+  padding: 10px;
+}
+
+div.second div.info {
+  display: inline-block;
+  float: right;
+  color: #000;
+  font-size: 1em;
+}
+p.blanc {
+  color: white;
+}
+
+div p {
+  font-weight: bold;
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  padding: 10px;
+}
+div p.tel {
+  color: white;
+  font-size: 0.9em;
+}
+div p.important {
+  color: #E03E50;
+  font-size: 1.9em;
+}
+
+div a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: 1.6em;
+  text-align: center;
+  padding: 10px;
+}
+div a:hover {
+  text-decoration: none;
+}
+
+.main {
+  position: relative;
+  margin: 40px 40px 60px 60px;
+}
+
+.Gdclip-bas {
+	position: relative;
+	background: #00A3E0;
+  display: inline-block;
+  max-width: 400px;
+  width: 100%;
+  max-height: 400px;
+  height: 400px;
+}
+.Gdclip-bas:after {
+  z-index: 100;
+	top: 100%;
+	left: 40%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(0, 163, 224, 0);
+	border-top-color: #00A3E0;
+	border-width: 20px;
+	margin-bottom: -20px;
+}
+
+.Gdclip-droite {
+	position: relative;
+	background: #00A3E0;
+  display: inline-block;
+  max-width: 400px;
+  width: 100%;
+  max-height: 400px;
+  height: 400px;
+}
+.Gdclip-droite:after {
+  z-index: 100;
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(0, 163, 224, 0);
+	border-left-color: #00A3E0;
+	border-width: 20px;
+	margin-top: -20px;
+}
+
+.Moyenclip-droite {
+	position: relative;
+	background: #005EB8;
+  max-width: 200px;
+  width: 100%;
+  max-height: 200px;
+  height: 200px;
+}
+.Moyenclip-droite:after {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(0, 94, 184, 0);
+	border-left-color: #005EB8;
+	border-width: 20px;
+	margin-top: -20px;
+}
+
+.Moyenclip-bas {
+	position: relative;
+	background: #48A23F;
+  max-width: 200px;
+  width: 100%;
+  max-height: 200px;
+  height: 200px;
+}
+.Moyenclip-bas:after {
+  top: 100%;
+  left: 40%;
+  border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(72, 162, 63, 0);
+	border-top-color: #48A23F;
+	border-width: 20px;
+	margin-bottom: -20px;
+}
+
+.Petitclip-droite {
+	position: relative;
+	background: #00A3E0;
+  max-width: 100px;
+  width: 100%;
+  max-height: 100px;
+  height: 100px;
+}
+.Petitclip-droite:after {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(0, 163, 224, 0);
+	border-left-color: #00A3E0;
+	border-width: 10px;
+	margin-top: -10px;
+}
+
+.droite {
+  display: inline-block;
+  position: relative;
+  left: -4px;
+}
+
+.centre {
+  position: absolute;
+  top:25%;
+  margin-left: 400px;
+}
+
+/*==========*\
+  COULEURS
+\*==========*/
+.bleu-principal {
+  background: #005EB8;
+}
+
+.bleu-secondaire {
+  background: #00A3E0;
+}
+
+.vert-principal {
+  background: #CCE821;
+}
+
+.vert-secondaire {
+  background: #48A23F;
+}

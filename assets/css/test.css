@@ -1,0 +1,52 @@
+body {
+  max-width: 960px;
+  width: 100%;
+}
+/* ====LES BLOCS==== */
+/* == tailles == */
+.grand {
+  width: 300px;
+  height: 300px;
+}
+.moyen {
+  width: 150px;
+  height: 150px;
+}
+.petit {
+  width: 50px;
+  height: 50px;
+}
+/* == couleurs == */
+/* = principales = */
+.bleu-principal {
+  background: #005EB8;
+}
+
+.bleu-secondaire {
+  background: #00A3E0;
+}
+
+.vert-principal {
+  background: #CCE821;
+}
+
+.vert-secondaire {
+  background: #48A23F;
+}
+
+/* = secondaires = */
+.rouge {
+  background: #E03E50;
+}
+.violet {
+  background: #93328E;
+}
+.noir {
+  background: #000;
+}
+.noir70 {
+  background: #4D4D4D;
+}
+.noir20 {
+  background: #CDCDCD;
+}
