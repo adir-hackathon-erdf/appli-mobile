@@ -7,15 +7,17 @@ body {
 header {
   margin-top: 1%;
 }
+img, object, embed, canvas, video, audio, picture {
+  max-width: 100%;
+  height: auto;
+}
 header img {
   max-width: 150px;
   width: 100%;
 }
-
 p.blanc {
   color: white;
 }
-
 div p {
   font-weight: bold;
   color: white;
@@ -23,12 +25,10 @@ div p {
   text-align: center;
   padding: 10px;
 }
-
 div p.important {
   color: #E03E50;
   font-size: 1em;
 }
-
 div a {
   text-decoration: none;
   font-weight: bold;
@@ -40,8 +40,39 @@ div a {
 div a:hover {
   text-decoration: none;
 }
+.droite {
+  display: inline-block;
+  position: relative;
+  left: -5px;
+}
 
+.centre {
+  position: absolute;
+  top:25%;
+  margin-left: 300px;
+}
 
+aside header {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+article section {
+  height: 100px;
+}
+article div {
+  display: inline-block;
+}
+article div.info {
+  margin-left: 5%;
+}
+
+/*==========*\
+    CLIPS
+\*==========*/
+
+/* Début du grand clip bleu-principal */
 .Gdclip-bas {
 	position: relative;
 	background: #00A3E0;
@@ -64,6 +95,7 @@ div a:hover {
 	border-width: 20px;
 	margin-bottom: -20px;
 }
+/* Fin du grand clip bleu-principal */
 
 .Gdclip-droite {
 	position: relative;
@@ -150,35 +182,6 @@ div a:hover {
 	border-width: 10px;
 	margin-top: -10px;
 }
-
-.droite {
-  display: inline-block;
-  position: relative;
-  left: -5px;
-}
-
-.centre {
-  position: absolute;
-  top:25%;
-  margin-left: 300px;
-}
-
-aside header {
-  font-size: 1.2em;
-  font-weight: bold;
-  text-align: center;
-}
-
-article section {
-  height: 100px;
-}
-article div {
-  display: inline-block;
-}
-article div.info {
-  margin-left: 5%;
-}
-
 
 /*==========*\
   COULEURS
