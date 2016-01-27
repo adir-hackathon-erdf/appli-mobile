@@ -1,6 +1,5 @@
   var lieux = [];
   var pdls = [];
-  var infoPdls = [];
 
   var nom1 = document.getElementById('nom-pdl1');
   var pdl1 = document.getElementById('pdl-1');
@@ -48,6 +47,7 @@
       localStorage.setItem(num_pdl, pdls[i].value);
       a++;
     }
+    document.location.href="index.html";
   }
   
   if (bouton != null)
@@ -56,13 +56,13 @@
   }
   else
   { 
-    lieu1.innerHTML = localStorage.nom_pdl1;
-    nb1.innerHTML = localStorage.num_pdl1;
-    lieu2.innerHTML = localStorage.nom_pdl2;
-    nb2.innerHTML = localStorage.num_pdl2;
-    lieu3.innerHTML = localStorage.nom_pdl3;
-    nb3.innerHTML = localStorage.num_pdl3;
-    lieu4.innerHTML = localStorage.nom_pdl4;
-    nb4.innerHTML = localStorage.num_pdl4;
+    lieu1.innerHTML = "Lieu : " + localStorage.nom_pdl1;
+    nb1.innerHTML = "PDL : " + localStorage.num_pdl1;
+    lieu2.innerHTML = "Lieu : " + localStorage.nom_pdl2;
+    nb2.innerHTML = "PDL : " + localStorage.num_pdl2;
+    lieu3.innerHTML = "Lieu : " + localStorage.nom_pdl3;
+    nb3.innerHTML = "PDL : " + localStorage.num_pdl3;
+    lieu4.innerHTML = "Lieu : " + localStorage.nom_pdl4;
+    nb4.innerHTML = "PDL : " + localStorage.num_pdl4;
   }
   
