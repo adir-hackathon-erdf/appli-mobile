@@ -1,17 +1,17 @@
+body {
+  max-width: 960px;
+  width: 100%;
+  padding: 5%;
+}
 header {
-  margin-top: 10%;
+  margin-top: 1%;
 }
 header img {
   max-width: 150px;
   width: 100%;
+  margin-bottom: 5%;
 }
 
-div.second div.info {
-  display: inline-block;
-  float: right;
-  color: #000;
-  font-size: 1em;
-}
 p.blanc {
   color: white;
 }
@@ -19,17 +19,14 @@ p.blanc {
 div p {
   font-weight: bold;
   color: white;
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
   padding: 10px;
 }
-div p.tel {
-  color: white;
-  font-size: 0.9em;
-}
+
 div p.important {
-  color: #E03E50;
-  font-size: 1.3em;
+  color: white;
+  font-size: 1em;
 }
 
 div a {
@@ -44,7 +41,6 @@ div a:hover {
   text-decoration: none;
 }
 
-
 .Gdclip-bas {
 	position: relative;
 	background: #00A3E0;
@@ -52,10 +48,11 @@ div a:hover {
   width: 300px;
   height: 300px;
 }
+
 .Gdclip-bas:after {
   z-index: 100;
 	top: 100%;
-	left: 40%;
+	left: 42%;
 	border: solid transparent;
 	content: " ";
 	height: 0;
@@ -68,35 +65,15 @@ div a:hover {
 	margin-bottom: -20px;
 }
 
-.Gdclip-droite {
-	position: relative;
-	background: #00A3E0;
-  display: inline-block;
-  width: 300px;
-  height: 300px;
-}
-.Gdclip-droite:after {
-  z-index: 100;
-	left: 100%;
-	top: 50%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-	border-color: rgba(0, 163, 224, 0);
-	border-left-color: #00A3E0;
-	border-width: 20px;
-	margin-top: -20px;
-}
 
 .Moyenclip-droite {
 	position: relative;
 	background: #005EB8;
-  width: 150px;
-  height: 150px;
+    width: 150px;
+    height: 150px;
+    
 }
+
 .Moyenclip-droite:after {
 	left: 100%;
 	top: 50%;
@@ -120,7 +97,7 @@ div a:hover {
 }
 .Moyenclip-bas:after {
   top: 100%;
-  left: 40%;
+  left: 39%;
   border: solid transparent;
 	content: " ";
 	height: 0;
@@ -136,8 +113,8 @@ div a:hover {
 .Petitclip-droite {
 	position: relative;
 	background: #00A3E0;
-  width: 100px;
-  height: 100px;
+    width: 100px;
+    height: 100px;
 }
 .Petitclip-droite:after {
 	left: 100%;
@@ -149,15 +126,23 @@ div a:hover {
 	position: absolute;
 	pointer-events: none;
 	border-color: rgba(0, 163, 224, 0);
-	border-left-color: #00A3E0;
+	border-left-color: #48A23F;
 	border-width: 10px;
 	margin-top: -10px;
 }
+#vert-principal:after {
+    border-left-color: #CCE821;
+}
+
+#bleu-secondaire:after {
+    border-left-color: #00A3E0;
+}
+
 
 .droite {
   display: inline-block;
   position: relative;
-  left: -4px;
+  margin-left: 20%;
 }
 
 .centre {
@@ -165,6 +150,28 @@ div a:hover {
   top:25%;
   margin-left: 300px;
 }
+
+aside header {
+  font-size: 1em;
+  font-weight: bold;    
+  text-align: center;
+  padding-top: 20px;
+  margin-right: 10%;
+  
+}
+
+article section {
+  height: 100px;
+}
+article div {
+  display: inline-block;
+  width: 200px; 
+  top: 18px;
+}
+article div.info {
+  margin-left: 5%;
+}
+
 
 /*==========*\
   COULEURS
