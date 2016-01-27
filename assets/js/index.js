@@ -1,4 +1,3 @@
-  var lieux = [];
   var pdls = [];
 
   var nom1 = document.getElementById('nom-pdl1');
