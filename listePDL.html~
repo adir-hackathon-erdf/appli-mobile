@@ -1,21 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Définissez vos PDL importants</title>
-    <link rel="stylesheet" href="assets/css/bootstrap-3.3.6-dist/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="assets/css/font-awesome-4.5.0/css/font-awesome.min.css" >
-    <link rel="stylesheet" href="assets/css/master.css" media="screen" title="no title" charset="utf-8">
-  </head>
-  <body>
-  	<p id="lieu1"></p>
-  	<p id="nb1"></p>
-  	<p id="lieu2"></p>
-  	<p id="nb2"></p>
-  	<p id="lieu3"></p>
-  	<p id="nb3"></p>
-  	<p id="lieu4"></p>
-  	<p id="nb4"></p>
+<head>
+	<meta charset="utf-8">
+	<title>liste</title>
+	<link rel="stylesheet" href="assets/css/listeStyle.css" media="all" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <script src="index.js"></script>
-  </body>
+</head>
+
+<body>
+
+<div class="image-fixed">
+		<img src="http://www.erdf.fr/sites/all/themes/erdf/images/logo_erdf_header.png" alt="logo"/>
+		<br/><br/><br/>
+
+		<a href="tel : 0033102030405"><p>appeler : 0033102030405</p></a>
+</div>	
+	
+	<div id="contenu">
+		<ul id="pagination">
+			<li id="lieu1">Nom de lieu 1: </li>
+			<li id="nb1">21234567890000</li>
+			<br/>
+			<li id="lieu2">Nom de lieu 2: </li>
+			<li id="nb2">21234567890100</li>
+			<br/>
+			<li id="lieu3">Nom de lieu 3: </li>
+			<li id="nb3">21234567890120</li>
+			<br/>
+			<li id="lieu4">Nom de lieu 4: </li>
+			<li id="nb4">21245678901230</li>
+		</ul>
+	</div>
+	<script src="assets/js/index.js"></script>
+</body>
+</html>
