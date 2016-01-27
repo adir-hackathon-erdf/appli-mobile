@@ -29,7 +29,7 @@ div p {
 
 div p.important {
   color: white;
-  font-size: 1em;
+  font-size: 0.8em;
 }
 div a {
   text-decoration: none;
@@ -59,7 +59,7 @@ aside header {
   font-size: 1em;
   font-weight: bold;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 10%;
   margin-right: 10%;
 
 }
@@ -104,6 +104,10 @@ article div.info {
 	border-top-color: #00A3E0;
 	border-width: 20px;
 	margin-bottom: -20px;
+}
+
+#pdl {
+    margin-top: 7%;
 }
 /* Fin du grand clip bleu-principal */
 
@@ -152,6 +156,10 @@ article div.info {
 	margin-bottom: -20px;
 }
 
+#appel {
+    margin-left: 28%;
+}
+
 .Petitclip-droite {
 	position: relative;
 	background: #00A3E0;
@@ -178,6 +186,12 @@ article div.info {
 
 #bleu-secondaire:after {
     border-left-color: #00A3E0;
+}
+
+.option {
+    margin-top: 10%;
+    margin-right: 10%;
+    float: right;
 }
 
 /*==========*\
