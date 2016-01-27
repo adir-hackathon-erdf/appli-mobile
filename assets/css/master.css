@@ -198,3 +198,12 @@ article div.info {
 .vert-secondaire {
   background: #48A23F;
 }
+
+#logoPdl {
+  width: 300px;
+}
+
+#bouton {
+  margin-left: auto;
+  margin-right: auto;
+}
