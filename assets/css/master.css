@@ -1,21 +1,24 @@
 body {
   max-width: 960px;
   width: 100%;
+  margin: auto;
   padding: 5%;
 }
 header {
   margin-top: 1%;
+}
+img, object, embed, canvas, video, audio, picture {
+  max-width: 100%;
+  height: auto;
 }
 header img {
   max-width: 150px;
   width: 100%;
   margin-bottom: 5%;
 }
-
 p.blanc {
   color: white;
 }
-
 div p {
   font-weight: bold;
   color: white;
@@ -28,7 +31,6 @@ div p.important {
   color: white;
   font-size: 1em;
 }
-
 div a {
   text-decoration: none;
   font-weight: bold;
@@ -41,6 +43,45 @@ div a:hover {
   text-decoration: none;
 }
 
+.droite {
+  display: inline-block;
+  position: relative;
+  margin-left: 20%;
+}
+
+.centre {
+  position: absolute;
+  top:25%;
+  margin-left: 300px;
+}
+
+aside header {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  margin-right: 10%;
+
+}
+
+article section {
+  height: 100px;
+}
+article div {
+  display: inline-block;
+  width: 200px;
+  top: 18px;
+}
+article div.info {
+  margin-left: 5%;
+}
+
+
+/*==========*\
+    CLIPS
+\*==========*/
+
+/* Début du grand clip bleu-principal */
 .Gdclip-bas {
 	position: relative;
 	background: #00A3E0;
@@ -64,6 +105,7 @@ div a:hover {
 	border-width: 20px;
 	margin-bottom: -20px;
 }
+/* Fin du grand clip bleu-principal */
 
 
 .Moyenclip-droite {
@@ -71,7 +113,7 @@ div a:hover {
 	background: #005EB8;
     width: 150px;
     height: 150px;
-    
+
 }
 
 .Moyenclip-droite:after {
@@ -137,41 +179,6 @@ div a:hover {
 #bleu-secondaire:after {
     border-left-color: #00A3E0;
 }
-
-
-.droite {
-  display: inline-block;
-  position: relative;
-  margin-left: 20%;
-}
-
-.centre {
-  position: absolute;
-  top:25%;
-  margin-left: 300px;
-}
-
-aside header {
-  font-size: 1em;
-  font-weight: bold;    
-  text-align: center;
-  padding-top: 20px;
-  margin-right: 10%;
-  
-}
-
-article section {
-  height: 100px;
-}
-article div {
-  display: inline-block;
-  width: 200px; 
-  top: 18px;
-}
-article div.info {
-  margin-left: 5%;
-}
-
 
 /*==========*\
   COULEURS
