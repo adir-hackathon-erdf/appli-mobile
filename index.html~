@@ -17,7 +17,7 @@
           <label for="nom-pdl1">Nom à donner</label>
           <input type="text" id="nom-pdl1" name="nom-pdl1" value="Nom à donner">
 
-          <label for="pdl1">Numéro PDL</label>
+          <label for="pdl">Numéro PDL</label>
           <input type="text" name="name" value="test" id="pdl-1">
         </li>
 
@@ -25,7 +25,7 @@
           <label for="nom-pdl2">Nom à donner</label>
           <input type="text" id="nom-pdl2" name="nom-pdl2" value="Nom à donner">
 
-          <label for="pdl2">Numéro PDL</label>
+          <label for="pdl">Numéro PDL</label>
           <input type="number" name="name" value="test" id="pdl-2">
         </li>
 
@@ -33,7 +33,7 @@
           <label for="nom-pdl3">Nom à donner</label>
           <input type="text" id="nom-pdl3" name="nom-pdl3" value="Nom à donner">
 
-          <label for="pdl3">Numéro PDL</label>
+          <label for="pdl">Numéro PDL</label>
           <input type="number" name="name" value="test" id="pdl-3">
         </li>
 
@@ -41,15 +41,17 @@
           <label for="nom-pdl4">Nom à donner</label>
           <input type="text" id="nom-pdl4" name="nom-pdl4" value="Nom à donner">
 
-          <label for="pdl4">Numéro PDL</label>
+          <label for="pdl">Numéro PDL</label>
           <input type="number" name="name" value="test" id="pdl-4">
         </li>
       </ul>
       <button type="button" name="button" id="bouton">Envoyer</button>
-
+      <a class="btn btn-lg btn-success" href="#">
+        <i class="fa fa-flag fa-2x pull-left"></i> Font Awesome<br>Version 4.5.0
+      </a>
     </form>
 
-<script src="assets/js/index.js"></script>
+<script src="index.js"></script>
 
 </body>
 

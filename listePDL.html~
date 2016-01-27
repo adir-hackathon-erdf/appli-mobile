@@ -17,5 +17,5 @@
   	<p id="lieu4"></p>
   	<p id="nb4"></p>
 
-  <script src="assets/js/index.js"></script>
+  <script src="index.js"></script>
   </body>
